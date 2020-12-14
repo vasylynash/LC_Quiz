@@ -1,5 +1,5 @@
-import LoginPage from '../pageobjects/login.page';
-import user from '../testData/users';
+import LoginPage from '../../../pageobjects/login.page';
+import user from '../../../testData/users';
 
 describe('LOGIN', function () {
   it('TC-001 Successful login as an admin', function () {
