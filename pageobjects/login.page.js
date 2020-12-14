@@ -1,6 +1,10 @@
 import BasePage from './BasePage';
 
 class LoginPage extends BasePage {
+  get headerLogin () {
+    return $('h1');
+  };
+
   get inputEmail () {
     return $('#normal_login_email');
   }
